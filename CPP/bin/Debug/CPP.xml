@@ -1,0 +1,256 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CPP
+</name>
+</assembly>
+<members>
+<member name="T:CPP.araDB.CPP_CATALOGDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CPP.araDB.CPP_COURSESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CPP.araDB.CPP_ENROLLMENTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CPP.araDB.CPP_INSTRUCTORSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CPP.araDB.CPP_STUDENTSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CPP.araDB.CPP_CATALOGRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CPP.araDB.CPP_COURSESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CPP.araDB.CPP_ENROLLMENTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CPP.araDB.CPP_INSTRUCTORSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CPP.araDB.CPP_STUDENTSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CPP.araDB.CPP_CATALOGRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CPP.araDB.CPP_COURSESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CPP.araDB.CPP_ENROLLMENTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CPP.araDB.CPP_INSTRUCTORSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CPP.araDB.CPP_STUDENTSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CPP.araDB">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:CPP.araDBTableAdapters.CPP_CATALOGTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CPP.araDBTableAdapters.CPP_COURSESTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CPP.araDBTableAdapters.CPP_ENROLLMENTTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CPP.araDBTableAdapters.CPP_INSTRUCTORSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CPP.araDBTableAdapters.CPP_STUDENTSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:CPP.araDBTableAdapters.TableAdapterManager.UpdateUpdatedRows(CPP.araDB,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:CPP.araDBTableAdapters.TableAdapterManager.UpdateInsertedRows(CPP.araDB,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:CPP.araDBTableAdapters.TableAdapterManager.UpdateDeletedRows(CPP.araDB,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:CPP.araDBTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:CPP.araDBTableAdapters.TableAdapterManager.UpdateAll(CPP.araDB)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:CPP.araDBTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:CPP.araDBTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:CPP.araDBTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:CPP.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:CPP.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:CPP.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:CPP.CPPDataSet.CPP_CATALOGDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CPP.CPPDataSet.CPP_COURSESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CPP.CPPDataSet.CPP_ENROLLMENTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CPP.CPPDataSet.CPP_INSTRUCTORSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CPP.CPPDataSet.CPP_STUDENTSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CPP.CPPDataSet.CPP_CATALOGRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CPP.CPPDataSet.CPP_COURSESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CPP.CPPDataSet.CPP_ENROLLMENTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CPP.CPPDataSet.CPP_INSTRUCTORSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CPP.CPPDataSet.CPP_STUDENTSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CPP.CPPDataSet.CPP_CATALOGRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CPP.CPPDataSet.CPP_COURSESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CPP.CPPDataSet.CPP_ENROLLMENTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CPP.CPPDataSet.CPP_INSTRUCTORSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CPP.CPPDataSet.CPP_STUDENTSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CPP.CPPDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:CPP.CPPDataSetTableAdapters.CPP_CATALOGTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CPP.CPPDataSetTableAdapters.CPP_COURSESTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CPP.CPPDataSetTableAdapters.CPP_ENROLLMENTTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CPP.CPPDataSetTableAdapters.CPP_INSTRUCTORSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CPP.CPPDataSetTableAdapters.CPP_STUDENTSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:CPP.CPPDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(CPP.CPPDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:CPP.CPPDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(CPP.CPPDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:CPP.CPPDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(CPP.CPPDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:CPP.CPPDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:CPP.CPPDataSetTableAdapters.TableAdapterManager.UpdateAll(CPP.CPPDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:CPP.CPPDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:CPP.CPPDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:CPP.CPPDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
